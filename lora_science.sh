@@ -1,12 +1,12 @@
 #!/bin/bash
 
-deepspeed /user_data/amulyam/Projects/LLaVA/llava/train/train.py \
+deepspeed /home/namancho/Llava4Science/llava/train/train.py \
     --lora_enable True --lora_r 128 --lora_alpha 256 --mm_projector_lr 2e-5 \
-    --deepspeed ./scripts/zero3_offload.json \
+    --deepspeed /home/namancho/Llava4Science/zero3_offload.json \
     --model_name_or_path liuhaotian/llava-v1.5-7b \
     --version v1 \
-    --data_path /user_data/amulyam/Projects/ScienceQA/data/scienceqa/llava_train_QCM-LEA.json_20.json \
-    --image_folder /user_data/amulyam/Projects/ScienceQA/train \
+    --data_path /home/namancho/datasets/llava_try/llava_try/llava_train_try.json \
+    --image_folder /home/namancho/datasets/llava_try/llava_try/images \
     --vision_tower openai/clip-vit-large-patch14-336 \
     --mm_projector_type mlp2x_gelu \
     --mm_vision_select_layer -2 \
@@ -15,7 +15,7 @@ deepspeed /user_data/amulyam/Projects/LLaVA/llava/train/train.py \
     --image_aspect_ratio pad \
     --group_by_modality_length True \
     --fp16 True \
-    --output_dir /user_data/amulyam/Projects/LLaVA/scienceQAtune/llava-v1.5-7b \
+    --output_dir /home/namancho/Llava4Science/llava-v1.5-7b \
     --num_train_epochs 1 \
     --per_device_train_batch_size 4 \
     --per_device_eval_batch_size 4 \
@@ -35,5 +35,3 @@ deepspeed /user_data/amulyam/Projects/LLaVA/llava/train/train.py \
     --dataloader_num_workers 1 \
     --lazy_preprocess True \
     --report_to wandb 
-
-# /user_data/amulyam/Projects/train_copy_missing_bin_file__sr.sh
