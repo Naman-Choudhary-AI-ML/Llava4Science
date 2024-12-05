@@ -1,0 +1,64 @@
+  0%|                                                                                                    | 0/51 [00:00<?, ?it/s]/home/amulyam/miniconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:429: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/amulyam/miniconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:61: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+/home/amulyam/miniconda3/envs/llava/lib/python3.10/site-packages/deepspeed/runtime/zero/stage3.py:1330: UserWarning: The torch.cuda.*DtypeTensor constructors are no longer recommended. It's best to use methods such as torch.tensor(data, dtype=*, device='cuda') to create tensors. (Triggered internally at ../torch/csrc/tensor/python_tensor.cpp:83.)
+  total_norm_cuda = get_accelerator().FloatTensor([float(total_norm)])
+                                                                                                                                
+{'loss': 6.7705, 'learning_rate': 0.0001, 'epoch': 0.02}
+{'loss': 6.4031, 'learning_rate': 0.0002, 'epoch': 0.04}
+{'loss': 3.723, 'learning_rate': 0.00019979453927503364, 'epoch': 0.06}
+{'loss': 1.6018, 'learning_rate': 0.0001991790013823246, 'epoch': 0.08}
+{'loss': 1.2591, 'learning_rate': 0.00019815591569910654, 'epoch': 0.1}
+{'loss': 1.5151, 'learning_rate': 0.00019672948630390294, 'epoch': 0.12}
+{'loss': 0.6963, 'learning_rate': 0.00019490557470106686, 'epoch': 0.14}
+{'loss': 0.8797, 'learning_rate': 0.0001926916757346022, 'epoch': 0.16}
+{'loss': 0.7834, 'learning_rate': 0.0001900968867902419, 'epoch': 0.17}
+{'loss': 0.7838, 'learning_rate': 0.00018713187041233896, 'epoch': 0.19}
+{'loss': 0.71, 'learning_rate': 0.00018380881048918405, 'epoch': 0.21}
+{'loss': 0.5739, 'learning_rate': 0.00018014136218679567, 'epoch': 0.23}
+{'loss': 0.6536, 'learning_rate': 0.00017614459583691346, 'epoch': 0.25}
+{'loss': 0.7474, 'learning_rate': 0.00017183493500977278, 'epoch': 0.27}
+{'loss': 0.763, 'learning_rate': 0.0001672300890261317, 'epoch': 0.29}
+{'loss': 0.5692, 'learning_rate': 0.00016234898018587337, 'epoch': 0.31}
+{'loss': 0.4902, 'learning_rate': 0.00015721166601221698, 'epoch': 0.33}
+{'loss': 0.6895, 'learning_rate': 0.00015183925683105254, 'epoch': 0.35}
+{'loss': 0.6561, 'learning_rate': 0.00014625382902408356, 'epoch': 0.37}
+{'loss': 0.6428, 'learning_rate': 0.00014047833431223938, 'epoch': 0.39}
+{'loss': 0.5391, 'learning_rate': 0.00013453650544213076, 'epoch': 0.41}
+{'loss': 0.4695, 'learning_rate': 0.00012845275866310324, 'epoch': 0.43}
+{'loss': 0.6591, 'learning_rate': 0.00012225209339563145, 'epoch': 0.45}
+{'loss': 0.6897, 'learning_rate': 0.00011595998950333793, 'epoch': 0.47}
+{'loss': 0.5203, 'learning_rate': 0.00010960230259076818, 'epoch': 0.49}
+{'loss': 0.6481, 'learning_rate': 0.00010320515775716555, 'epoch': 0.5}
+{'loss': 0.4267, 'learning_rate': 9.679484224283449e-05, 'epoch': 0.52}
+{'loss': 0.6137, 'learning_rate': 9.039769740923183e-05, 'epoch': 0.54}
+{'loss': 0.5374, 'learning_rate': 8.404001049666211e-05, 'epoch': 0.56}
+{'loss': 0.5415, 'learning_rate': 7.774790660436858e-05, 'epoch': 0.58}
+{'loss': 0.6096, 'learning_rate': 7.154724133689677e-05, 'epoch': 0.6}
+{'loss': 0.5347, 'learning_rate': 6.546349455786926e-05, 'epoch': 0.62}
+{'loss': 0.5724, 'learning_rate': 5.952166568776062e-05, 'epoch': 0.64}
+{'loss': 0.4235, 'learning_rate': 5.37461709759165e-05, 'epoch': 0.66}
+{'loss': 0.4594, 'learning_rate': 4.8160743168947496e-05, 'epoch': 0.68}
+{'loss': 0.4202, 'learning_rate': 4.278833398778306e-05, 'epoch': 0.7}
+{'loss': 0.4785, 'learning_rate': 3.7651019814126654e-05, 'epoch': 0.72}
+{'loss': 0.4759, 'learning_rate': 3.276991097386831e-05, 'epoch': 0.74}
+{'loss': 0.4229, 'learning_rate': 2.8165064990227252e-05, 'epoch': 0.76}
+{'loss': 0.482, 'learning_rate': 2.3855404163086558e-05, 'epoch': 0.78}
+{'loss': 0.4317, 'learning_rate': 1.985863781320435e-05, 'epoch': 0.8}
+{'loss': 0.4325, 'learning_rate': 1.619118951081594e-05, 'epoch': 0.82}
+{'loss': 0.3985, 'learning_rate': 1.286812958766106e-05, 'epoch': 0.83}
+{'loss': 0.4366, 'learning_rate': 9.903113209758096e-06, 'epoch': 0.85}
+{'loss': 0.3853, 'learning_rate': 7.308324265397836e-06, 'epoch': 0.87}
+{'loss': 0.4825, 'learning_rate': 5.094425298933136e-06, 'epoch': 0.89}
+{'loss': 0.4503, 'learning_rate': 3.270513696097055e-06, 'epoch': 0.91}
+{'loss': 0.5438, 'learning_rate': 1.8440843008934561e-06, 'epoch': 0.93}
+{'loss': 0.4529, 'learning_rate': 8.209986176753948e-07, 'epoch': 0.95}
+{'loss': 0.4283, 'learning_rate': 2.054607249663665e-07, 'epoch': 0.97}
+{'loss': 0.3982, 'learning_rate': 0.0, 'epoch': 0.99}
+{'train_runtime': 1822.1909, 'train_samples_per_second': 1.804, 'train_steps_per_second': 0.028, 'train_loss': 0.9073771986306882, 'epoch': 0.99}
+Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+Non-default generation parameters: {'max_length': 4096}
+/home/amulyam/miniconda3/envs/llava/lib/python3.10/site-packages/huggingface_hub/file_download.py:797: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+You are using a model of type llava to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.

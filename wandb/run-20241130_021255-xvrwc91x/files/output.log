@@ -1,0 +1,31 @@
+  0%|                                                                                                                                | 0/18 [00:00<?, ?it/s]/home/amulyam/miniconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:429: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/amulyam/miniconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:61: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+/home/amulyam/miniconda3/envs/llava/lib/python3.10/site-packages/deepspeed/runtime/zero/stage3.py:1330: UserWarning: The torch.cuda.*DtypeTensor constructors are no longer recommended. It's best to use methods such as torch.tensor(data, dtype=*, device='cuda') to create tensors. (Triggered internally at ../torch/csrc/tensor/python_tensor.cpp:83.)
+  total_norm_cuda = get_accelerator().FloatTensor([float(total_norm)])
+100%|████████████████████████████████████████████████████████████████████████████████████████| 18/18 [1:24:29<00:00, 281.64s/it]                            
+{'loss': 1.5692, 'learning_rate': 0.0002, 'epoch': 0.05}
+{'loss': 1.5409, 'learning_rate': 0.0001982973099683902, 'epoch': 0.11}
+{'loss': 1.3934, 'learning_rate': 0.00019324722294043558, 'epoch': 0.16}
+{'loss': 1.3179, 'learning_rate': 0.00018502171357296144, 'epoch': 0.21}
+{'loss': 1.334, 'learning_rate': 0.00017390089172206592, 'epoch': 0.27}
+{'loss': 1.3595, 'learning_rate': 0.00016026346363792567, 'epoch': 0.32}
+{'loss': 1.1867, 'learning_rate': 0.00014457383557765386, 'epoch': 0.37}
+{'loss': 1.2506, 'learning_rate': 0.0001273662990072083, 'epoch': 0.43}
+{'loss': 1.1842, 'learning_rate': 0.00010922683594633021, 'epoch': 0.48}
+{'loss': 1.2636, 'learning_rate': 9.077316405366981e-05, 'epoch': 0.53}
+{'loss': 1.2076, 'learning_rate': 7.263370099279172e-05, 'epoch': 0.59}
+{'loss': 1.3195, 'learning_rate': 5.542616442234618e-05, 'epoch': 0.64}
+{'loss': 1.2843, 'learning_rate': 3.973653636207437e-05, 'epoch': 0.69}
+{'loss': 1.2164, 'learning_rate': 2.6099108277934103e-05, 'epoch': 0.75}
+{'loss': 1.2104, 'learning_rate': 1.4978286427038601e-05, 'epoch': 0.8}
+{'loss': 1.2134, 'learning_rate': 6.75277705956443e-06, 'epoch': 0.85}
+{'loss': 1.3282, 'learning_rate': 1.7026900316098215e-06, 'epoch': 0.91}
+{'loss': 1.2743, 'learning_rate': 0.0, 'epoch': 0.96}
+{'train_runtime': 5070.838, 'train_samples_per_second': 0.592, 'train_steps_per_second': 0.004, 'train_loss': 1.3030143645074632, 'epoch': 0.96}
+Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+Non-default generation parameters: {'max_length': 4096}
+/home/amulyam/miniconda3/envs/llava/lib/python3.10/site-packages/huggingface_hub/file_download.py:797: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+You are using a model of type llava to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.

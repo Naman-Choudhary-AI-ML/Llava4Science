@@ -1,0 +1,16 @@
+  0%|                                                                                                                               | 0/468 [00:00<?, ?it/s]/home/amulyam/miniconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:429: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/amulyam/miniconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:61: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+/home/amulyam/miniconda3/envs/llava/lib/python3.10/site-packages/deepspeed/runtime/zero/stage3.py:1330: UserWarning: The torch.cuda.*DtypeTensor constructors are no longer recommended. It's best to use methods such as torch.tensor(data, dtype=*, device='cuda') to create tensors. (Triggered internally at ../torch/csrc/tensor/python_tensor.cpp:83.)
+  total_norm_cuda = get_accelerator().FloatTensor([float(total_norm)])
+  2%|██▏                                                                                                                | 9/468 [47:48<40:02:03, 313.99s/it]
+{'loss': 0.0, 'learning_rate': 1.3333333333333333e-05, 'epoch': 0.03}
+{'loss': 0.0, 'learning_rate': 2.6666666666666667e-05, 'epoch': 0.05}
+{'loss': 0.0, 'learning_rate': 4e-05, 'epoch': 0.08}
+{'loss': 0.0, 'learning_rate': 5.333333333333333e-05, 'epoch': 0.1}
+{'loss': 0.0, 'learning_rate': 6.666666666666667e-05, 'epoch': 0.13}
+{'loss': 0.0, 'learning_rate': 8e-05, 'epoch': 0.15}
+{'loss': 0.0, 'learning_rate': 9.333333333333334e-05, 'epoch': 0.18}
+{'loss': 0.0, 'learning_rate': 0.00010666666666666667, 'epoch': 0.21}
+{'loss': 0.0, 'learning_rate': 0.00012, 'epoch': 0.23}

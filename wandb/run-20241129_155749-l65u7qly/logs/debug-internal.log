@@ -1,0 +1,16 @@
+{"time":"2024-11-29T15:57:50.011839198-05:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-11-29T15:57:50.011902837-05:00","level":"INFO","msg":"created symlink","path":"/user_data/amulyam/Projects/LLaVA/FineTune/wandb/run-20241129_155749-l65u7qly/logs/debug-core.log"}
+{"time":"2024-11-29T15:57:50.126837893-05:00","level":"INFO","msg":"created new stream","id":"l65u7qly"}
+{"time":"2024-11-29T15:57:50.12698757-05:00","level":"INFO","msg":"stream: started","id":"l65u7qly"}
+{"time":"2024-11-29T15:57:50.127036609-05:00","level":"INFO","msg":"sender: started","stream_id":"l65u7qly"}
+{"time":"2024-11-29T15:57:50.127012347-05:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"l65u7qly"}}
+{"time":"2024-11-29T15:57:50.127086309-05:00","level":"INFO","msg":"handler: started","stream_id":{"value":"l65u7qly"}}
+{"time":"2024-11-29T15:57:50.354736647-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-29T16:28:18.02364439-05:00","level":"INFO","msg":"stream: closing","id":"l65u7qly"}
+{"time":"2024-11-29T16:28:18.024065639-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-29T16:28:18.027171266-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-29T16:28:18.409621903-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-29T16:28:18.536609437-05:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"l65u7qly"}}
+{"time":"2024-11-29T16:28:18.536701616-05:00","level":"INFO","msg":"sender: closed","stream_id":"l65u7qly"}
+{"time":"2024-11-29T16:28:18.536673368-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"l65u7qly"}}
+{"time":"2024-11-29T16:28:18.537404328-05:00","level":"INFO","msg":"stream: closed","id":"l65u7qly"}

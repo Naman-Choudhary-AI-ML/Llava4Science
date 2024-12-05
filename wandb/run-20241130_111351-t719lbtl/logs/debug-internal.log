@@ -1,0 +1,16 @@
+{"time":"2024-11-30T11:13:51.755226517-05:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-11-30T11:13:51.755250876-05:00","level":"INFO","msg":"created symlink","path":"/user_data/amulyam/Projects/LLaVA/FineTune/wandb/run-20241130_111351-t719lbtl/logs/debug-core.log"}
+{"time":"2024-11-30T11:13:51.885908764-05:00","level":"INFO","msg":"created new stream","id":"t719lbtl"}
+{"time":"2024-11-30T11:13:51.885956794-05:00","level":"INFO","msg":"stream: started","id":"t719lbtl"}
+{"time":"2024-11-30T11:13:51.886073261-05:00","level":"INFO","msg":"sender: started","stream_id":"t719lbtl"}
+{"time":"2024-11-30T11:13:51.88602454-05:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"t719lbtl"}}
+{"time":"2024-11-30T11:13:51.886101902-05:00","level":"INFO","msg":"handler: started","stream_id":{"value":"t719lbtl"}}
+{"time":"2024-11-30T11:13:52.125276072-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-30T16:34:37.461189532-05:00","level":"INFO","msg":"stream: closing","id":"t719lbtl"}
+{"time":"2024-11-30T16:34:37.46131479-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-30T16:34:37.462167256-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-30T16:34:38.803460806-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-30T16:34:38.88845435-05:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"t719lbtl"}}
+{"time":"2024-11-30T16:34:38.888574075-05:00","level":"INFO","msg":"sender: closed","stream_id":"t719lbtl"}
+{"time":"2024-11-30T16:34:38.888549104-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"t719lbtl"}}
+{"time":"2024-11-30T16:34:38.889389072-05:00","level":"INFO","msg":"stream: closed","id":"t719lbtl"}

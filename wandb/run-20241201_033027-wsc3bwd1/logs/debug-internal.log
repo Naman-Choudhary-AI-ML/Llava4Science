@@ -1,0 +1,16 @@
+{"time":"2024-12-01T03:30:27.620618068-05:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-12-01T03:30:27.620635616-05:00","level":"INFO","msg":"created symlink","path":"/user_data/amulyam/Projects/LLaVA/FineTune/wandb/run-20241201_033027-wsc3bwd1/logs/debug-core.log"}
+{"time":"2024-12-01T03:30:27.733902756-05:00","level":"INFO","msg":"created new stream","id":"wsc3bwd1"}
+{"time":"2024-12-01T03:30:27.733957435-05:00","level":"INFO","msg":"stream: started","id":"wsc3bwd1"}
+{"time":"2024-12-01T03:30:27.734005267-05:00","level":"INFO","msg":"sender: started","stream_id":"wsc3bwd1"}
+{"time":"2024-12-01T03:30:27.734004694-05:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"wsc3bwd1"}}
+{"time":"2024-12-01T03:30:27.73402918-05:00","level":"INFO","msg":"handler: started","stream_id":{"value":"wsc3bwd1"}}
+{"time":"2024-12-01T03:30:27.90849563-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-01T14:44:52.464165709-05:00","level":"INFO","msg":"stream: closing","id":"wsc3bwd1"}
+{"time":"2024-12-01T14:44:52.464282542-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-01T14:44:52.465062872-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-01T14:44:53.848743817-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-01T14:44:53.981078426-05:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"wsc3bwd1"}}
+{"time":"2024-12-01T14:44:53.981145158-05:00","level":"INFO","msg":"sender: closed","stream_id":"wsc3bwd1"}
+{"time":"2024-12-01T14:44:53.981135095-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"wsc3bwd1"}}
+{"time":"2024-12-01T14:44:53.981867744-05:00","level":"INFO","msg":"stream: closed","id":"wsc3bwd1"}

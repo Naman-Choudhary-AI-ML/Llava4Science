@@ -1,0 +1,8 @@
+{"time":"2024-11-28T17:37:30.542344242-05:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-11-28T17:37:30.542377955-05:00","level":"INFO","msg":"created symlink","path":"/user_data/amulyam/Projects/LLaVA/FineTune/wandb/run-20241128_173730-4jy0sejn/logs/debug-core.log"}
+{"time":"2024-11-28T17:37:30.650863664-05:00","level":"INFO","msg":"created new stream","id":"4jy0sejn"}
+{"time":"2024-11-28T17:37:30.650933973-05:00","level":"INFO","msg":"stream: started","id":"4jy0sejn"}
+{"time":"2024-11-28T17:37:30.650990963-05:00","level":"INFO","msg":"sender: started","stream_id":"4jy0sejn"}
+{"time":"2024-11-28T17:37:30.650936454-05:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"4jy0sejn"}}
+{"time":"2024-11-28T17:37:30.650973528-05:00","level":"INFO","msg":"handler: started","stream_id":{"value":"4jy0sejn"}}
+{"time":"2024-11-28T17:37:30.865221224-05:00","level":"INFO","msg":"Starting system monitor"}

@@ -1,0 +1,16 @@
+{"time":"2024-11-29T18:06:36.849540994-05:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-11-29T18:06:36.849571067-05:00","level":"INFO","msg":"created symlink","path":"/user_data/amulyam/Projects/LLaVA/FineTune/wandb/run-20241129_180636-anp1nk39/logs/debug-core.log"}
+{"time":"2024-11-29T18:06:36.960623182-05:00","level":"INFO","msg":"created new stream","id":"anp1nk39"}
+{"time":"2024-11-29T18:06:36.960683284-05:00","level":"INFO","msg":"stream: started","id":"anp1nk39"}
+{"time":"2024-11-29T18:06:36.960787739-05:00","level":"INFO","msg":"sender: started","stream_id":"anp1nk39"}
+{"time":"2024-11-29T18:06:36.960762536-05:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"anp1nk39"}}
+{"time":"2024-11-29T18:06:36.9608126-05:00","level":"INFO","msg":"handler: started","stream_id":{"value":"anp1nk39"}}
+{"time":"2024-11-29T18:06:37.188249606-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-29T22:56:06.083109024-05:00","level":"INFO","msg":"stream: closing","id":"anp1nk39"}
+{"time":"2024-11-29T22:56:06.083208181-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-29T22:56:06.084071154-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-29T22:56:06.474186166-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-29T22:56:06.579381551-05:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"anp1nk39"}}
+{"time":"2024-11-29T22:56:06.579471909-05:00","level":"INFO","msg":"sender: closed","stream_id":"anp1nk39"}
+{"time":"2024-11-29T22:56:06.579460081-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"anp1nk39"}}
+{"time":"2024-11-29T22:56:06.712398237-05:00","level":"INFO","msg":"stream: closed","id":"anp1nk39"}

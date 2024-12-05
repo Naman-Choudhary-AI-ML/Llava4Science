@@ -1,0 +1,360 @@
+  0%|                                                                                                                               | 0/310 [00:00<?, ?it/s]/home/amulyam/miniconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:429: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/amulyam/miniconda3/envs/llava/lib/python3.10/site-packages/torch/utils/checkpoint.py:61: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+/home/amulyam/miniconda3/envs/llava/lib/python3.10/site-packages/deepspeed/runtime/zero/stage3.py:1330: UserWarning: The torch.cuda.*DtypeTensor constructors are no longer recommended. It's best to use methods such as torch.tensor(data, dtype=*, device='cuda') to create tensors. (Triggered internally at ../torch/csrc/tensor/python_tensor.cpp:83.)
+  total_norm_cuda = get_accelerator().FloatTensor([float(total_norm)])
+                                                                                                                                                            
+{'loss': 1.3702, 'learning_rate': 2e-05, 'epoch': 0.01}
+{'loss': 1.367, 'learning_rate': 4e-05, 'epoch': 0.01}
+{'loss': 1.3396, 'learning_rate': 6e-05, 'epoch': 0.02}
+{'loss': 1.242, 'learning_rate': 8e-05, 'epoch': 0.03}
+{'loss': 1.3962, 'learning_rate': 0.0001, 'epoch': 0.03}
+{'loss': 1.0538, 'learning_rate': 0.00012, 'epoch': 0.04}
+{'loss': 1.0729, 'learning_rate': 0.00014, 'epoch': 0.05}
+{'loss': 0.9742, 'learning_rate': 0.00016, 'epoch': 0.05}
+{'loss': 0.9441, 'learning_rate': 0.00018, 'epoch': 0.06}
+{'loss': 1.2512, 'learning_rate': 0.0002, 'epoch': 0.06}
+{'loss': 0.9104, 'learning_rate': 0.00019999451693655123, 'epoch': 0.07}
+{'loss': 1.2345, 'learning_rate': 0.00019997806834748456, 'epoch': 0.08}
+{'loss': 1.17, 'learning_rate': 0.00019995065603657316, 'epoch': 0.08}
+{'loss': 0.9158, 'learning_rate': 0.00019991228300988585, 'epoch': 0.09}
+{'loss': 1.1635, 'learning_rate': 0.0001998629534754574, 'epoch': 0.1}
+{'loss': 0.8608, 'learning_rate': 0.00019980267284282717, 'epoch': 0.1}
+{'loss': 0.8893, 'learning_rate': 0.00019973144772244582, 'epoch': 0.11}
+{'loss': 1.1262, 'learning_rate': 0.00019964928592495045, 'epoch': 0.12}
+{'loss': 0.7944, 'learning_rate': 0.00019955619646030802, 'epoch': 0.12}
+{'loss': 1.1448, 'learning_rate': 0.00019945218953682734, 'epoch': 0.13}
+{'loss': 0.8555, 'learning_rate': 0.00019933727656003963, 'epoch': 0.14}
+{'loss': 1.0723, 'learning_rate': 0.0001992114701314478, 'epoch': 0.14}
+{'loss': 0.8484, 'learning_rate': 0.00019907478404714436, 'epoch': 0.15}
+{'loss': 0.8139, 'learning_rate': 0.00019892723329629887, 'epoch': 0.15}
+{'loss': 0.8223, 'learning_rate': 0.00019876883405951377, 'epoch': 0.16}
+{'loss': 0.8038, 'learning_rate': 0.0001985996037070505, 'epoch': 0.17}
+{'loss': 0.8097, 'learning_rate': 0.0001984195607969242, 'epoch': 0.17}
+{'loss': 1.1944, 'learning_rate': 0.0001982287250728689, 'epoch': 0.18}
+{'loss': 0.8131, 'learning_rate': 0.00019802711746217218, 'epoch': 0.19}
+{'loss': 1.1047, 'learning_rate': 0.00019781476007338058, 'epoch': 0.19}
+{'loss': 0.8021, 'learning_rate': 0.00019759167619387476, 'epoch': 0.2}
+{'loss': 0.8155, 'learning_rate': 0.00019735789028731604, 'epoch': 0.21}
+{'loss': 0.79, 'learning_rate': 0.00019711342799096361, 'epoch': 0.21}
+{'loss': 1.0518, 'learning_rate': 0.0001968583161128631, 'epoch': 0.22}
+{'loss': 0.7979, 'learning_rate': 0.00019659258262890683, 'epoch': 0.23}
+{'loss': 0.812, 'learning_rate': 0.00019631625667976583, 'epoch': 0.23}
+{'loss': 1.1684, 'learning_rate': 0.0001960293685676943, 'epoch': 0.24}
+{'loss': 0.7858, 'learning_rate': 0.00019573194975320673, 'epoch': 0.24}
+{'loss': 0.7654, 'learning_rate': 0.0001954240328516277, 'epoch': 0.25}
+{'loss': 0.8035, 'learning_rate': 0.00019510565162951537, 'epoch': 0.26}
+{'loss': 1.198, 'learning_rate': 0.0001947768410009586, 'epoch': 0.26}
+{'loss': 0.7464, 'learning_rate': 0.00019443763702374812, 'epoch': 0.27}
+{'loss': 0.7947, 'learning_rate': 0.00019408807689542257, 'epoch': 0.28}
+{'loss': 0.7461, 'learning_rate': 0.00019372819894918915, 'epoch': 0.28}
+{'loss': 1.1957, 'learning_rate': 0.00019335804264972018, 'epoch': 0.29}
+{'loss': 0.7643, 'learning_rate': 0.00019297764858882514, 'epoch': 0.3}
+{'loss': 0.7978, 'learning_rate': 0.0001925870584809995, 'epoch': 0.3}
+{'loss': 0.7594, 'learning_rate': 0.00019218631515885006, 'epoch': 0.31}
+{'loss': 1.0429, 'learning_rate': 0.00019177546256839812, 'epoch': 0.32}
+{'loss': 0.7853, 'learning_rate': 0.0001913545457642601, 'epoch': 0.32}
+{'loss': 0.7347, 'learning_rate': 0.00019092361090470688, 'epoch': 0.33}
+{'loss': 0.7176, 'learning_rate': 0.00019048270524660196, 'epoch': 0.33}
+{'loss': 0.7024, 'learning_rate': 0.00019003187714021938, 'epoch': 0.34}
+{'loss': 1.1662, 'learning_rate': 0.0001895711760239413, 'epoch': 0.35}
+{'loss': 1.128, 'learning_rate': 0.0001891006524188368, 'epoch': 0.35}
+{'loss': 0.7597, 'learning_rate': 0.00018862035792312147, 'epoch': 0.36}
+{'loss': 0.7359, 'learning_rate': 0.0001881303452064992, 'epoch': 0.37}
+{'loss': 0.6928, 'learning_rate': 0.00018763066800438636, 'epoch': 0.37}
+{'loss': 0.7848, 'learning_rate': 0.00018712138111201895, 'epoch': 0.38}
+{'loss': 0.7557, 'learning_rate': 0.00018660254037844388, 'epoch': 0.39}
+{'loss': 0.6773, 'learning_rate': 0.0001860742027003944, 'epoch': 0.39}
+{'loss': 1.1106, 'learning_rate': 0.00018553642601605068, 'epoch': 0.4}
+{'loss': 0.7388, 'learning_rate': 0.00018498926929868642, 'epoch': 0.41}
+{'loss': 0.758, 'learning_rate': 0.00018443279255020152, 'epoch': 0.41}
+{'loss': 0.7285, 'learning_rate': 0.00018386705679454242, 'epoch': 0.42}
+{'loss': 0.6985, 'learning_rate': 0.00018329212407100994, 'epoch': 0.43}
+{'loss': 0.7534, 'learning_rate': 0.00018270805742745617, 'epoch': 0.43}
+{'loss': 0.7495, 'learning_rate': 0.00018211492091337042, 'epoch': 0.44}
+{'loss': 1.0567, 'learning_rate': 0.00018151277957285543, 'epoch': 0.44}
+{'loss': 0.6925, 'learning_rate': 0.00018090169943749476, 'epoch': 0.45}
+{'loss': 0.7272, 'learning_rate': 0.00018028174751911146, 'epoch': 0.46}
+{'loss': 0.7709, 'learning_rate': 0.00017965299180241963, 'epoch': 0.46}
+{'loss': 1.2232, 'learning_rate': 0.00017901550123756906, 'epoch': 0.47}
+{'loss': 0.7255, 'learning_rate': 0.000178369345732584, 'epoch': 0.48}
+{'loss': 0.7252, 'learning_rate': 0.0001777145961456971, 'epoch': 0.48}
+{'loss': 0.7241, 'learning_rate': 0.00017705132427757895, 'epoch': 0.49}
+{'loss': 0.6789, 'learning_rate': 0.00017637960286346425, 'epoch': 0.5}
+{'loss': 1.1737, 'learning_rate': 0.00017569950556517566, 'epoch': 0.5}
+{'loss': 0.7466, 'learning_rate': 0.00017501110696304596, 'epoch': 0.51}
+{'loss': 1.0144, 'learning_rate': 0.00017431448254773944, 'epoch': 0.52}
+{'loss': 0.7446, 'learning_rate': 0.00017360970871197346, 'epoch': 0.52}
+{'loss': 1.0318, 'learning_rate': 0.00017289686274214118, 'epoch': 0.53}
+{'loss': 1.0226, 'learning_rate': 0.00017217602280983623, 'epoch': 0.53}
+{'loss': 0.7352, 'learning_rate': 0.00017144726796328034, 'epoch': 0.54}
+{'loss': 0.7183, 'learning_rate': 0.00017071067811865476, 'epoch': 0.55}
+{'loss': 0.67, 'learning_rate': 0.00016996633405133655, 'epoch': 0.55}
+{'loss': 0.6937, 'learning_rate': 0.0001692143173870407, 'epoch': 0.56}
+{'loss': 0.6836, 'learning_rate': 0.00016845471059286887, 'epoch': 0.57}
+{'loss': 1.1548, 'learning_rate': 0.00016768759696826608, 'epoch': 0.57}
+{'loss': 0.7223, 'learning_rate': 0.00016691306063588583, 'epoch': 0.58}
+{'loss': 1.1371, 'learning_rate': 0.00016613118653236518, 'epoch': 0.59}
+{'loss': 0.7284, 'learning_rate': 0.00016534206039901057, 'epoch': 0.59}
+{'loss': 1.1467, 'learning_rate': 0.00016454576877239507, 'epoch': 0.6}
+{'loss': 0.7372, 'learning_rate': 0.000163742398974869, 'epoch': 0.61}
+{'loss': 1.0983, 'learning_rate': 0.00016293203910498376, 'epoch': 0.61}
+{'loss': 0.7153, 'learning_rate': 0.00016211477802783103, 'epoch': 0.62}
+{'loss': 0.6916, 'learning_rate': 0.00016129070536529766, 'epoch': 0.62}
+{'loss': 0.7331, 'learning_rate': 0.0001604599114862375, 'epoch': 0.63}
+{'loss': 1.0393, 'learning_rate': 0.0001596224874965616, 'epoch': 0.64}
+{'loss': 1.0515, 'learning_rate': 0.00015877852522924732, 'epoch': 0.64}
+{'loss': 0.7187, 'learning_rate': 0.0001579281172342679, 'epoch': 0.65}
+{'loss': 0.7126, 'learning_rate': 0.0001570713567684432, 'epoch': 0.66}
+{'loss': 0.7239, 'learning_rate': 0.00015620833778521307, 'epoch': 0.66}
+{'loss': 0.9963, 'learning_rate': 0.00015533915492433443, 'epoch': 0.67}
+{'loss': 0.7432, 'learning_rate': 0.00015446390350150273, 'epoch': 0.68}
+{'loss': 0.7112, 'learning_rate': 0.00015358267949789966, 'epoch': 0.68}
+{'loss': 0.6924, 'learning_rate': 0.00015269557954966778, 'epoch': 0.69}
+{'loss': 1.1194, 'learning_rate': 0.00015180270093731303, 'epoch': 0.7}
+{'loss': 0.7256, 'learning_rate': 0.00015090414157503714, 'epoch': 0.7}
+{'loss': 0.7298, 'learning_rate': 0.00015000000000000001, 'epoch': 0.71}
+{'loss': 0.7353, 'learning_rate': 0.00014909037536151409, 'epoch': 0.71}
+{'loss': 1.0745, 'learning_rate': 0.00014817536741017152, 'epoch': 0.72}
+{'loss': 0.7384, 'learning_rate': 0.00014725507648690543, 'epoch': 0.73}
+{'loss': 1.0848, 'learning_rate': 0.00014632960351198618, 'epoch': 0.73}
+{'loss': 0.7384, 'learning_rate': 0.00014539904997395468, 'epoch': 0.74}
+{'loss': 1.0117, 'learning_rate': 0.00014446351791849276, 'epoch': 0.75}
+{'loss': 0.7005, 'learning_rate': 0.00014352310993723277, 'epoch': 0.75}
+{'loss': 1.063, 'learning_rate': 0.00014257792915650728, 'epoch': 0.76}
+{'loss': 0.7377, 'learning_rate': 0.00014162807922604012, 'epoch': 0.77}
+{'loss': 0.7143, 'learning_rate': 0.00014067366430758004, 'epoch': 0.77}
+{'loss': 0.7293, 'learning_rate': 0.00013971478906347806, 'epoch': 0.78}
+{'loss': 0.7305, 'learning_rate': 0.0001387515586452103, 'epoch': 0.79}
+{'loss': 0.6719, 'learning_rate': 0.00013778407868184672, 'epoch': 0.79}
+{'loss': 0.7389, 'learning_rate': 0.00013681245526846783, 'epoch': 0.8}
+{'loss': 1.1139, 'learning_rate': 0.00013583679495453, 'epoch': 0.81}
+{'loss': 0.7001, 'learning_rate': 0.00013485720473218154, 'epoch': 0.81}
+{'loss': 0.6627, 'learning_rate': 0.00013387379202452917, 'epoch': 0.82}
+{'loss': 0.7081, 'learning_rate': 0.00013288666467385833, 'epoch': 0.82}
+{'loss': 0.7071, 'learning_rate': 0.00013189593092980702, 'epoch': 0.83}
+{'loss': 1.2063, 'learning_rate': 0.00013090169943749476, 'epoch': 0.84}
+{'loss': 0.6713, 'learning_rate': 0.00012990407922560868, 'epoch': 0.84}
+{'loss': 0.6963, 'learning_rate': 0.00012890317969444716, 'epoch': 0.85}
+{'loss': 0.7532, 'learning_rate': 0.00012789911060392294, 'epoch': 0.86}
+{'loss': 0.7114, 'learning_rate': 0.00012689198206152657, 'epoch': 0.86}
+{'loss': 0.6678, 'learning_rate': 0.00012588190451025207, 'epoch': 0.87}
+{'loss': 0.7016, 'learning_rate': 0.0001248689887164855, 'epoch': 0.88}
+{'loss': 1.1259, 'learning_rate': 0.0001238533457578581, 'epoch': 0.88}
+{'loss': 0.6842, 'learning_rate': 0.00012283508701106557, 'epoch': 0.89}
+{'loss': 0.7077, 'learning_rate': 0.00012181432413965428, 'epoch': 0.9}
+{'loss': 0.6494, 'learning_rate': 0.00012079116908177593, 'epoch': 0.9}
+{'loss': 0.6869, 'learning_rate': 0.00011976573403791262, 'epoch': 0.91}
+{'loss': 0.6631, 'learning_rate': 0.00011873813145857249, 'epoch': 0.91}
+{'loss': 1.1471, 'learning_rate': 0.00011770847403195834, 'epoch': 0.92}
+{'loss': 1.0814, 'learning_rate': 0.00011667687467161024, 'epoch': 0.93}
+{'loss': 0.686, 'learning_rate': 0.0001156434465040231, 'epoch': 0.93}
+{'loss': 0.6994, 'learning_rate': 0.00011460830285624118, 'epoch': 0.94}
+{'loss': 0.6775, 'learning_rate': 0.00011357155724343045, 'epoch': 0.95}
+{'loss': 1.0621, 'learning_rate': 0.00011253332335643043, 'epoch': 0.95}
+{'loss': 0.7079, 'learning_rate': 0.00011149371504928668, 'epoch': 0.96}
+{'loss': 0.6884, 'learning_rate': 0.00011045284632676536, 'epoch': 0.97}
+{'loss': 1.0592, 'learning_rate': 0.00010941083133185146, 'epoch': 0.97}
+{'loss': 1.1257, 'learning_rate': 0.00010836778433323158, 'epoch': 0.98}
+{'loss': 0.7083, 'learning_rate': 0.00010732381971276318, 'epoch': 0.99}
+{'loss': 1.0203, 'learning_rate': 0.00010627905195293135, 'epoch': 0.99}
+{'loss': 0.9281, 'learning_rate': 0.0001052335956242944, 'epoch': 1.0}
+{'loss': 0.662, 'learning_rate': 0.00010418756537291996, 'epoch': 1.0}
+{'loss': 0.6175, 'learning_rate': 0.00010314107590781284, 'epoch': 1.01}
+{'loss': 0.5958, 'learning_rate': 0.0001020942419883357, 'epoch': 1.02}
+{'loss': 0.6082, 'learning_rate': 0.00010104717841162458, 'epoch': 1.02}
+{'loss': 0.6213, 'learning_rate': 0.0001, 'epoch': 1.03}
+{'loss': 0.6274, 'learning_rate': 9.895282158837545e-05, 'epoch': 1.04}
+{'loss': 0.6118, 'learning_rate': 9.790575801166432e-05, 'epoch': 1.04}
+{'loss': 0.6308, 'learning_rate': 9.685892409218717e-05, 'epoch': 1.05}
+{'loss': 0.6538, 'learning_rate': 9.581243462708006e-05, 'epoch': 1.06}
+{'loss': 0.5672, 'learning_rate': 9.476640437570562e-05, 'epoch': 1.06}
+{'loss': 0.8099, 'learning_rate': 9.372094804706867e-05, 'epoch': 1.07}
+{'loss': 0.6661, 'learning_rate': 9.267618028723686e-05, 'epoch': 1.08}
+{'loss': 0.8653, 'learning_rate': 9.163221566676847e-05, 'epoch': 1.08}
+{'loss': 0.6804, 'learning_rate': 9.058916866814858e-05, 'epoch': 1.09}
+{'loss': 0.5858, 'learning_rate': 8.954715367323468e-05, 'epoch': 1.1}
+{'loss': 0.6241, 'learning_rate': 8.850628495071336e-05, 'epoch': 1.1}
+{'loss': 0.6245, 'learning_rate': 8.746667664356956e-05, 'epoch': 1.11}
+{'loss': 0.6105, 'learning_rate': 8.642844275656957e-05, 'epoch': 1.11}
+{'loss': 0.7256, 'learning_rate': 8.539169714375885e-05, 'epoch': 1.12}
+{'loss': 0.8693, 'learning_rate': 8.435655349597689e-05, 'epoch': 1.13}
+{'loss': 0.7278, 'learning_rate': 8.332312532838978e-05, 'epoch': 1.13}
+{'loss': 0.5897, 'learning_rate': 8.229152596804168e-05, 'epoch': 1.14}
+{'loss': 0.5906, 'learning_rate': 8.126186854142752e-05, 'epoch': 1.15}
+{'loss': 0.8055, 'learning_rate': 8.023426596208739e-05, 'epoch': 1.15}
+{'loss': 0.8115, 'learning_rate': 7.920883091822408e-05, 'epoch': 1.16}
+{'loss': 0.7373, 'learning_rate': 7.818567586034577e-05, 'epoch': 1.17}
+{'loss': 0.7586, 'learning_rate': 7.716491298893442e-05, 'epoch': 1.17}
+{'loss': 0.653, 'learning_rate': 7.614665424214193e-05, 'epoch': 1.18}
+{'loss': 0.5781, 'learning_rate': 7.513101128351454e-05, 'epoch': 1.19}
+{'loss': 0.7515, 'learning_rate': 7.411809548974792e-05, 'epoch': 1.19}
+{'loss': 0.8859, 'learning_rate': 7.310801793847344e-05, 'epoch': 1.2}
+{'loss': 0.6316, 'learning_rate': 7.210088939607708e-05, 'epoch': 1.2}
+{'loss': 0.5955, 'learning_rate': 7.109682030555283e-05, 'epoch': 1.21}
+{'loss': 0.5579, 'learning_rate': 7.009592077439134e-05, 'epoch': 1.22}
+{'loss': 0.615, 'learning_rate': 6.909830056250527e-05, 'epoch': 1.22}
+{'loss': 0.613, 'learning_rate': 6.8104069070193e-05, 'epoch': 1.23}
+{'loss': 0.6037, 'learning_rate': 6.711333532614168e-05, 'epoch': 1.24}
+{'loss': 0.706, 'learning_rate': 6.612620797547087e-05, 'epoch': 1.24}
+{'loss': 0.6552, 'learning_rate': 6.51427952678185e-05, 'epoch': 1.25}
+{'loss': 0.7515, 'learning_rate': 6.416320504546997e-05, 'epoch': 1.26}
+{'loss': 0.595, 'learning_rate': 6.318754473153221e-05, 'epoch': 1.26}
+{'loss': 0.6013, 'learning_rate': 6.22159213181533e-05, 'epoch': 1.27}
+{'loss': 0.7222, 'learning_rate': 6.12484413547897e-05, 'epoch': 1.28}
+{'loss': 0.6557, 'learning_rate': 6.0285210936521955e-05, 'epoch': 1.28}
+{'loss': 0.7827, 'learning_rate': 5.9326335692419995e-05, 'epoch': 1.29}
+{'loss': 0.7238, 'learning_rate': 5.83719207739599e-05, 'epoch': 1.29}
+{'loss': 0.7928, 'learning_rate': 5.7422070843492734e-05, 'epoch': 1.3}
+{'loss': 0.6307, 'learning_rate': 5.647689006276726e-05, 'epoch': 1.31}
+{'loss': 0.738, 'learning_rate': 5.553648208150728e-05, 'epoch': 1.31}
+{'loss': 0.6933, 'learning_rate': 5.4600950026045326e-05, 'epoch': 1.32}
+{'loss': 0.5809, 'learning_rate': 5.3670396488013854e-05, 'epoch': 1.33}
+{'loss': 0.5526, 'learning_rate': 5.274492351309461e-05, 'epoch': 1.33}
+{'loss': 0.604, 'learning_rate': 5.182463258982846e-05, 'epoch': 1.34}
+{'loss': 0.8109, 'learning_rate': 5.090962463848592e-05, 'epoch': 1.35}
+{'loss': 0.8828, 'learning_rate': 5.000000000000002e-05, 'epoch': 1.35}
+{'loss': 0.7907, 'learning_rate': 4.909585842496287e-05, 'epoch': 1.36}
+{'loss': 0.9094, 'learning_rate': 4.8197299062686995e-05, 'epoch': 1.37}
+{'loss': 0.6662, 'learning_rate': 4.7304420450332244e-05, 'epoch': 1.37}
+{'loss': 0.6157, 'learning_rate': 4.6417320502100316e-05, 'epoch': 1.38}
+{'loss': 0.7893, 'learning_rate': 4.5536096498497295e-05, 'epoch': 1.38}
+{'loss': 0.6869, 'learning_rate': 4.46608450756656e-05, 'epoch': 1.39}
+{'loss': 0.697, 'learning_rate': 4.379166221478697e-05, 'epoch': 1.4}
+{'loss': 0.6493, 'learning_rate': 4.2928643231556844e-05, 'epoch': 1.4}
+{'loss': 0.6174, 'learning_rate': 4.207188276573214e-05, 'epoch': 1.41}
+{'loss': 0.6415, 'learning_rate': 4.12214747707527e-05, 'epoch': 1.42}
+{'loss': 0.6065, 'learning_rate': 4.037751250343841e-05, 'epoch': 1.42}
+{'loss': 0.5732, 'learning_rate': 3.954008851376252e-05, 'epoch': 1.43}
+{'loss': 0.5798, 'learning_rate': 3.8709294634702376e-05, 'epoch': 1.44}
+{'loss': 0.7686, 'learning_rate': 3.788522197216897e-05, 'epoch': 1.44}
+{'loss': 0.7167, 'learning_rate': 3.7067960895016275e-05, 'epoch': 1.45}
+{'loss': 0.577, 'learning_rate': 3.6257601025131026e-05, 'epoch': 1.46}
+{'loss': 0.575, 'learning_rate': 3.545423122760493e-05, 'epoch': 1.46}
+{'loss': 0.7605, 'learning_rate': 3.465793960098945e-05, 'epoch': 1.47}
+{'loss': 0.6339, 'learning_rate': 3.386881346763483e-05, 'epoch': 1.48}
+{'loss': 0.6068, 'learning_rate': 3.308693936411421e-05, 'epoch': 1.48}
+{'loss': 0.5734, 'learning_rate': 3.231240303173394e-05, 'epoch': 1.49}
+{'loss': 0.5947, 'learning_rate': 3.154528940713113e-05, 'epoch': 1.49}
+{'loss': 0.5391, 'learning_rate': 3.078568261295933e-05, 'epoch': 1.5}
+{'loss': 0.6474, 'learning_rate': 3.0033665948663448e-05, 'epoch': 1.51}
+{'loss': 0.5885, 'learning_rate': 2.9289321881345254e-05, 'epoch': 1.51}
+{'loss': 0.5928, 'learning_rate': 2.8552732036719687e-05, 'epoch': 1.52}
+{'loss': 0.5935, 'learning_rate': 2.7823977190163786e-05, 'epoch': 1.53}
+{'loss': 0.5831, 'learning_rate': 2.7103137257858868e-05, 'epoch': 1.53}
+{'loss': 0.5717, 'learning_rate': 2.639029128802657e-05, 'epoch': 1.54}
+{'loss': 0.7827, 'learning_rate': 2.5685517452260567e-05, 'epoch': 1.55}
+{'loss': 0.7032, 'learning_rate': 2.4988893036954043e-05, 'epoch': 1.55}
+{'loss': 0.5721, 'learning_rate': 2.4300494434824373e-05, 'epoch': 1.56}
+{'loss': 0.5689, 'learning_rate': 2.362039713653581e-05, 'epoch': 1.57}
+{'loss': 0.5951, 'learning_rate': 2.2948675722421086e-05, 'epoch': 1.57}
+{'loss': 0.74, 'learning_rate': 2.2285403854302912e-05, 'epoch': 1.58}
+{'loss': 0.6472, 'learning_rate': 2.163065426741603e-05, 'epoch': 1.58}
+{'loss': 0.7973, 'learning_rate': 2.098449876243096e-05, 'epoch': 1.59}
+{'loss': 0.6546, 'learning_rate': 2.0347008197580374e-05, 'epoch': 1.6}
+{'loss': 0.5958, 'learning_rate': 1.9718252480888566e-05, 'epoch': 1.6}
+{'loss': 0.7671, 'learning_rate': 1.9098300562505266e-05, 'epoch': 1.61}
+{'loss': 0.7758, 'learning_rate': 1.848722042714457e-05, 'epoch': 1.62}
+{'loss': 0.6402, 'learning_rate': 1.78850790866296e-05, 'epoch': 1.62}
+{'loss': 0.5914, 'learning_rate': 1.7291942572543807e-05, 'epoch': 1.63}
+{'loss': 0.6119, 'learning_rate': 1.6707875928990058e-05, 'epoch': 1.64}
+{'loss': 0.5919, 'learning_rate': 1.6132943205457606e-05, 'epoch': 1.64}
+{'loss': 0.7405, 'learning_rate': 1.5567207449798515e-05, 'epoch': 1.65}
+{'loss': 0.6207, 'learning_rate': 1.5010730701313625e-05, 'epoch': 1.66}
+{'loss': 0.5953, 'learning_rate': 1.4463573983949341e-05, 'epoch': 1.66}
+{'loss': 0.6276, 'learning_rate': 1.3925797299605647e-05, 'epoch': 1.67}
+{'loss': 0.5848, 'learning_rate': 1.339745962155613e-05, 'epoch': 1.67}
+{'loss': 0.7324, 'learning_rate': 1.2878618887981064e-05, 'epoch': 1.68}
+{'loss': 0.6049, 'learning_rate': 1.2369331995613665e-05, 'epoch': 1.69}
+{'loss': 0.6833, 'learning_rate': 1.1869654793500784e-05, 'epoch': 1.69}
+{'loss': 0.7742, 'learning_rate': 1.1379642076878527e-05, 'epoch': 1.7}
+{'loss': 0.6456, 'learning_rate': 1.0899347581163221e-05, 'epoch': 1.71}
+{'loss': 0.584, 'learning_rate': 1.042882397605871e-05, 'epoch': 1.71}
+{'loss': 0.6866, 'learning_rate': 9.968122859780648e-06, 'epoch': 1.72}
+{'loss': 0.6649, 'learning_rate': 9.517294753398064e-06, 'epoch': 1.73}
+{'loss': 0.5857, 'learning_rate': 9.076389095293148e-06, 'epoch': 1.73}
+{'loss': 0.7122, 'learning_rate': 8.645454235739903e-06, 'epoch': 1.74}
+{'loss': 0.6144, 'learning_rate': 8.224537431601886e-06, 'epoch': 1.75}
+{'loss': 0.5984, 'learning_rate': 7.81368484114996e-06, 'epoch': 1.75}
+{'loss': 0.6091, 'learning_rate': 7.412941519000527e-06, 'epoch': 1.76}
+{'loss': 0.544, 'learning_rate': 7.022351411174866e-06, 'epoch': 1.76}
+{'loss': 0.6184, 'learning_rate': 6.6419573502798374e-06, 'epoch': 1.77}
+{'loss': 0.5741, 'learning_rate': 6.2718010508108545e-06, 'epoch': 1.78}
+{'loss': 0.7303, 'learning_rate': 5.911923104577455e-06, 'epoch': 1.78}
+{'loss': 0.6226, 'learning_rate': 5.562362976251901e-06, 'epoch': 1.79}
+{'loss': 0.7683, 'learning_rate': 5.223158999041444e-06, 'epoch': 1.8}
+{'loss': 0.8446, 'learning_rate': 4.8943483704846475e-06, 'epoch': 1.8}
+{'loss': 0.8745, 'learning_rate': 4.575967148372317e-06, 'epoch': 1.81}
+{'loss': 0.599, 'learning_rate': 4.268050246793276e-06, 'epoch': 1.82}
+{'loss': 0.7253, 'learning_rate': 3.970631432305694e-06, 'epoch': 1.82}
+{'loss': 0.642, 'learning_rate': 3.68374332023419e-06, 'epoch': 1.83}
+{'loss': 0.5882, 'learning_rate': 3.40741737109318e-06, 'epoch': 1.84}
+{'loss': 0.6198, 'learning_rate': 3.1416838871368924e-06, 'epoch': 1.84}
+{'loss': 0.5775, 'learning_rate': 2.8865720090364034e-06, 'epoch': 1.85}
+{'loss': 0.7039, 'learning_rate': 2.6421097126839712e-06, 'epoch': 1.86}
+{'loss': 0.6489, 'learning_rate': 2.4083238061252567e-06, 'epoch': 1.86}
+  File "/user_data/amulyam/Projects/LLaVA/FineTune/train/train.py", line 991, in <module>
+    train()
+  File "/user_data/amulyam/Projects/LLaVA/FineTune/train/train.py", line 969, in train
+    trainer.train()
+  File "/home/amulyam/miniconda3/envs/llava/lib/python3.10/site-packages/transformers/trainer.py", line 1539, in train
+    return inner_training_loop(
+  File "/home/amulyam/miniconda3/envs/llava/lib/python3.10/site-packages/transformers/trainer.py", line 1836, in _inner_training_loop
+    for step, inputs in enumerate(epoch_iterator):
+  File "/home/amulyam/miniconda3/envs/llava/lib/python3.10/site-packages/accelerate/data_loader.py", line 462, in __iter__
+    next_batch = next(dataloader_iter)
+  File "/home/amulyam/miniconda3/envs/llava/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 630, in __next__
+    data = self._next_data()
+  File "/home/amulyam/miniconda3/envs/llava/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1345, in _next_data
+    return self._process_data(data)
+  File "/home/amulyam/miniconda3/envs/llava/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1371, in _process_data
+    data.reraise()
+  File "/home/amulyam/miniconda3/envs/llava/lib/python3.10/site-packages/torch/_utils.py", line 694, in reraise
+    raise exception
+FileNotFoundError: Caught FileNotFoundError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/home/amulyam/miniconda3/envs/llava/lib/python3.10/site-packages/torch/utils/data/_utils/worker.py", line 308, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/home/amulyam/miniconda3/envs/llava/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/amulyam/miniconda3/envs/llava/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/user_data/amulyam/Projects/LLaVA/FineTune/train/train.py", line 701, in __getitem__
+    image = Image.open(os.path.join(image_folder, image_file)).convert('RGB')
+  File "/home/amulyam/miniconda3/envs/llava/lib/python3.10/site-packages/PIL/Image.py", line 3431, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: '/user_data/amulyam/Projects/combined_images/geoqa+/images/12979.png'
+
+Traceback (most recent call last):
+  File "/user_data/amulyam/Projects/LLaVA/FineTune/train/train.py", line 991, in <module>
+    train()
+  File "/user_data/amulyam/Projects/LLaVA/FineTune/train/train.py", line 969, in train
+    trainer.train()
+  File "/home/amulyam/miniconda3/envs/llava/lib/python3.10/site-packages/transformers/trainer.py", line 1539, in train
+    return inner_training_loop(
+  File "/home/amulyam/miniconda3/envs/llava/lib/python3.10/site-packages/transformers/trainer.py", line 1836, in _inner_training_loop
+    for step, inputs in enumerate(epoch_iterator):
+  File "/home/amulyam/miniconda3/envs/llava/lib/python3.10/site-packages/accelerate/data_loader.py", line 462, in __iter__
+    next_batch = next(dataloader_iter)
+  File "/home/amulyam/miniconda3/envs/llava/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 630, in __next__
+    data = self._next_data()
+  File "/home/amulyam/miniconda3/envs/llava/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1345, in _next_data
+    return self._process_data(data)
+  File "/home/amulyam/miniconda3/envs/llava/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1371, in _process_data
+    data.reraise()
+  File "/home/amulyam/miniconda3/envs/llava/lib/python3.10/site-packages/torch/_utils.py", line 694, in reraise
+    raise exception
+FileNotFoundError: Caught FileNotFoundError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/home/amulyam/miniconda3/envs/llava/lib/python3.10/site-packages/torch/utils/data/_utils/worker.py", line 308, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/home/amulyam/miniconda3/envs/llava/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/amulyam/miniconda3/envs/llava/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/user_data/amulyam/Projects/LLaVA/FineTune/train/train.py", line 701, in __getitem__
+    image = Image.open(os.path.join(image_folder, image_file)).convert('RGB')
+  File "/home/amulyam/miniconda3/envs/llava/lib/python3.10/site-packages/PIL/Image.py", line 3431, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: '/user_data/amulyam/Projects/combined_images/geoqa+/images/12979.png'
