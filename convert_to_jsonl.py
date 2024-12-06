@@ -1,7 +1,5 @@
 import json
 import argparse
-
-
 def convert_to_jsonl(input_file, output_file):
     """
     Converts a JSON file to JSONL format.

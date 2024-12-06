@@ -8,10 +8,8 @@ from llava.mm_utils import tokenizer_image_token
 from transformers.generation.streamers import TextIteratorStreamer
 
 from PIL import Image
-
 import requests
 from io import BytesIO
-
 from cog import BasePredictor, Input, Path, ConcatenateIterator
 import time
 import subprocess
