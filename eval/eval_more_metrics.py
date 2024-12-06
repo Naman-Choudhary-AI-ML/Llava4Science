@@ -70,9 +70,20 @@ def calculate_metrics(ground_truth, model_answer):
 
 def evaluate(samples):
     """
-    Evaluate the dataset using the specified metrics.
+    Evaluate the dataset using the specified metrics and compute overall averages.
     """
     results = []
+    metric_sums = {
+        "bleu": 0,
+        "rouge1": 0,
+        "rouge2": 0,
+        "rougeL": 0,
+        "meteor": 0,
+        "f1": 0,
+        "cosine_similarity": 0,
+        "bert_score": 0
+    }
+    count = len(samples)  # Total number of samples
 
     for sample in tqdm(samples):
         ground_truth = sample['ground_truth']
@@ -81,10 +92,17 @@ def evaluate(samples):
         # Calculate metrics
         metrics = calculate_metrics(ground_truth, model_answer)
         sample['metrics'] = metrics
-
         results.append(sample)
 
-    return results
+        # Sum up metrics for averaging
+        for metric in metric_sums.keys():
+            if metrics[metric] is not None:  # Skip None values (e.g., for F1 when not applicable)
+                metric_sums[metric] += metrics[metric]
+
+    # Calculate averages
+    averages = {metric: value / count for metric, value in metric_sums.items()}
+
+    return results, averages
 
 def main(args):
     # Load data
@@ -111,15 +129,19 @@ def main(args):
             "model_answer": model_answer
         })
 
-    # Evaluate samples
-    results = evaluate(samples)
+    # Evaluate samples and compute averages
+    results, averages = evaluate(samples)
 
     # Save results
     with open(args.output_file, 'w') as f:
         for row in results:
             f.write(json.dumps(row) + '\n')
 
-    print(f"Evaluation completed. Results saved to {args.output_file}.")
+    # Print or save averages
+    print("Overall Averages:")
+    for metric, avg in averages.items():
+        print(f"{metric}: {avg:.4f}")
+
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Evaluate model answers against ground truth using various metrics.')
