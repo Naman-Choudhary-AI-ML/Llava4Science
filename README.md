@@ -1,54 +1,34 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-LLaVA for Chest X rays
-=======
-LLaVA for Chest X rays and Clinical Dataset
->>>>>>> cfa667b24e1412fd860151130369ff75915a4ed4
-=======
-To use the LLaVA model with the ScienceQA dataset, follow these steps: 
+# LLAVA for Science
 
-(1) Navigate to the LLaVA directory using cd LLaVA. 
+## Objective
+The primary goal of this project is to extend LLaVA’s capabilities for scientific reasoning by fine-tuning it on curated datasets spanning diverse scientific domains. By doing so, we aim to enhance the model's ability to tackle complex scientific questions and tasks.
 
-(2) Ensure the dataset is organized under ScienceQA/ with train, val, and test subdirectories. 
+## Datasets
+The following datasets were used for fine-tuning the model:
+- **AI2D**: Dataset focusing on diagram understanding.
+- **GeoQA+**: A geography-based question-answering dataset.
+- **CLEVR-MATH**: Dataset combining visual reasoning and mathematical problem-solving.
+- **SciGraphQA**: A dataset for scientific graph-based reasoning.
 
-(3) Convert the dataset to the LLaVA conversation-style format by running the convert_sqa_to_llava.py script with the specified base directory and split (e.g., train, val, test). 
+These datasets are available in the `datasets/` folder.
 
-(4) For training, either download pretrained projector weights from the model zoo or run pretrain.sh to train your own, then fine-tune the model using finetune_sqa.sh. 
+## Steps to Fine-Tune the Model
 
-(5) For evaluation, perform multiple-GPU inference to generate responses on ScienceQA with the provided scripts, or use single-GPU inference with llava.eval.model_vqa_science to generate answers, followed by eval_science_qa.py to evaluate them. Ensure all paths are correctly set up for your environment. For more details, refer to the official ScienceQA and LLaVA documentation.
+### 1. Prepare the Environment
+Ensure all dependencies are installed and the required datasets are accessible in the `datasets/` folder.
 
-Scripts to run:
+### 2. Run the Fine-Tuning Script
+Navigate to the `scripts/` folder and use the `lora_science.sh` script to fine-tune the model.
 
-1. Prepare data:
-python scripts/convert_sqa_to_llava.py \
-    convert_to_llava \
-    --base-dir /path/to/ScienceQA/data/scienceqa \
-    --prompt-format "QCM-LEA" \
-    --split {train,val,minival,test,minitest}
+#### Things to Edit in the Script:
+- `data_path`: Path to the dataset.
+- `image_folder`: Path to the folder containing related images (if applicable).
+- `output_dir`: Directory to save the fine-tuned model.
 
-2. Multiple-GPU Inference
- python -m llava.eval.model_vqa_science \
-  --model-path liuhaotian/llava-lcs558k-scienceqa-vicuna-13b-v1.3 \
-  --question-file /path/to/ScienceQA/data/scienceqa/llava_test_QCM-LEA.json \
-  --image-folder /path/to/ScienceQA/data/scienceqa/images/test \
-  --answers-file vqa/results/ScienceQA/test_llava-13b.jsonl \
-  --conv-mode llava_v1
 
-3. Single-GPU Inference
-(a) Generate Responses
 
-python -m llava.eval.model_vqa_science \
-    --model-path liuhaotian/llava-lcs558k-scienceqa-vicuna-13b-v1.3 \
-    --question-file /path/to/ScienceQA/data/scienceqa/llava_test_QCM-LEA.json \
-    --image-folder /path/to/ScienceQA/data/scienceqa/images/test \
-    --answers-file vqa/results/ScienceQA/test_llava-13b.jsonl \
-    --conv-mode llava_v1
-
-(b) Evaluate Responses
-python eval_science_qa.py \
-    --base-dir /path/to/ScienceQA/data/scienceqa \
-    --result-file vqa/results/ScienceQA/test_llava-13b.jsonl \
-    --output-file vqa/results/ScienceQA/test_llava-13b_output.json \
-    --output-result vqa/results/ScienceQA/test_llava-13b_result.json
-
->>>>>>> 7188fd7c4876a6cc6de11e89a599d37de6721020
+### 3. Run the generate_eval.sh script (in main folder) to generate answers and evaluations
+- Convert validation json files to jsonl form
+- Generate model answers using model_vqa.py
+- Evaluate answers through GPT-4 using OPEN API key in multimodal_chatgpt_eval.py
+- Evaluate answers with more scores using eval_more_metrics.py
