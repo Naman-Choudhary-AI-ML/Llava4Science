@@ -32,3 +32,5 @@ Navigate to the `scripts/` folder and use the `lora_science.sh` script to fine-t
 - Generate model answers using model_vqa.py
 - Evaluate answers through GPT-4 using OPEN API key in multimodal_chatgpt_eval.py
 - Evaluate answers with more scores using eval_more_metrics.py
+
+### 4. Run the eval_more_metrics.py script inside eval folder to generate more evaluation metric scores (BLEU, ROUGE, METEOR, Cosine Similarity, BERTScore)
